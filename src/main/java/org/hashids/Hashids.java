@@ -43,7 +43,7 @@ public class Hashids {
   }
 
   public Hashids(String salt) {
-    this(salt, 0);
+    this(salt, DEFAULT_MIN_HASH_LENGTH);
   }
 
   public Hashids(String salt, int minHashLength) {
